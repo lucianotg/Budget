@@ -121,8 +121,9 @@
 		4083AF512A088E64005DDC82 /* Budget */ = {
 			isa = PBXGroup;
 			children = (
-				4083AF522A088E64005DDC82 /* BudgetApp.swift */,
-				4083AF542A088E64005DDC82 /* ContentView.swift */,
+				40B8271F2A0D9B36000451AA /* Model */,
+				40B827202A0D9B46000451AA /* View */,
+				40B827212A0D9B4C000451AA /* Controller */,
 				4083AF562A088E65005DDC82 /* Assets.xcassets */,
 				4083AF582A088E65005DDC82 /* Preview Content */,
 			);
@@ -154,6 +155,29 @@
 			path = BudgetUITests;
 			sourceTree = "<group>";
 		};
+		40B8271F2A0D9B36000451AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40B827202A0D9B46000451AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4083AF542A088E64005DDC82 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40B827212A0D9B4C000451AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4083AF522A088E64005DDC82 /* BudgetApp.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		955EAB094EC208A2C39FAB89 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +188,6 @@
 				8553A54876400D20A720555C /* Pods-BudgetTests.debug.xcconfig */,
 				7BA1B038E6E6EE67F140F423 /* Pods-BudgetTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
