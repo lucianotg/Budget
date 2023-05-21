@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0EF8AB4569505AE96D526D5E /* Pods_Budget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018E2E7D90715F8B6F7E505A /* Pods_Budget.framework */; };
+		407A09F92A1A7C2B00AEB626 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A09F82A1A7C2B00AEB626 /* Dog.swift */; };
+		407A09FD2A1AE18F00AEB626 /* PlaidAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A09FA2A1AE18F00AEB626 /* PlaidAccount.swift */; };
+		407A09FE2A1AE18F00AEB626 /* PlaidItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A09FB2A1AE18F00AEB626 /* PlaidItem.swift */; };
+		407A09FF2A1AE18F00AEB626 /* PlaidLinkToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A09FC2A1AE18F00AEB626 /* PlaidLinkToken.swift */; };
 		4083AF532A088E64005DDC82 /* BudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083AF522A088E64005DDC82 /* BudgetApp.swift */; };
 		4083AF552A088E64005DDC82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083AF542A088E64005DDC82 /* ContentView.swift */; };
 		4083AF572A088E65005DDC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4083AF562A088E65005DDC82 /* Assets.xcassets */; };
@@ -39,6 +43,10 @@
 /* Begin PBXFileReference section */
 		018E2E7D90715F8B6F7E505A /* Pods_Budget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Budget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F89306963FA6203505CF21F /* Pods_Budget_BudgetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Budget_BudgetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407A09F82A1A7C2B00AEB626 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		407A09FA2A1AE18F00AEB626 /* PlaidAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidAccount.swift; sourceTree = "<group>"; };
+		407A09FB2A1AE18F00AEB626 /* PlaidItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidItem.swift; sourceTree = "<group>"; };
+		407A09FC2A1AE18F00AEB626 /* PlaidLinkToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkToken.swift; sourceTree = "<group>"; };
 		4083AF4F2A088E64005DDC82 /* Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4083AF522A088E64005DDC82 /* BudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetApp.swift; sourceTree = "<group>"; };
 		4083AF542A088E64005DDC82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +168,10 @@
 		40B8271F2A0D9B36000451AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				407A09F82A1A7C2B00AEB626 /* Dog.swift */,
+				407A09FA2A1AE18F00AEB626 /* PlaidAccount.swift */,
+				407A09FB2A1AE18F00AEB626 /* PlaidItem.swift */,
+				407A09FC2A1AE18F00AEB626 /* PlaidLinkToken.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -431,7 +443,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407A09FE2A1AE18F00AEB626 /* PlaidItem.swift in Sources */,
+				407A09FD2A1AE18F00AEB626 /* PlaidAccount.swift in Sources */,
+				407A09FF2A1AE18F00AEB626 /* PlaidLinkToken.swift in Sources */,
 				4083AF552A088E64005DDC82 /* ContentView.swift in Sources */,
+				407A09F92A1A7C2B00AEB626 /* Dog.swift in Sources */,
 				4083AF532A088E64005DDC82 /* BudgetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
