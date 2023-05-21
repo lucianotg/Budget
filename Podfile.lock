@@ -1,5 +1,5 @@
 PODS:
-  - Plaid (4.3.0)
+  - Plaid (4.3.1)
   - Realm (10.39.1):
     - Realm/Headers (= 10.39.1)
   - Realm/Headers (10.39.1)
@@ -17,7 +17,7 @@ SPEC REPOS:
     - RealmSwift
 
 SPEC CHECKSUMS:
-  Plaid: 1a2e87be59888655d2cebcd5d864b3d9d4662b63
+  Plaid: 69a20b259a2d2b10b6b6fb5e801ac9cc4d51db4c
   Realm: 1f3157edf145f4d9036765ab550c8cb18f62b700
   RealmSwift: 8a69a1cb788cd5865966f49667b130567e07bceb
 

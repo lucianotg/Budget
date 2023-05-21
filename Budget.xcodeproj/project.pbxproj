@@ -587,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF25CF4068AE8F84289278FC /* Pods-Budget.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -689,7 +690,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA919819C5FB5405C7A09FC1 /* Pods-Budget-BudgetUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EUHB9Q5A45;
@@ -708,7 +709,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E72A46DFAB8A12CF88CB6A0 /* Pods-Budget-BudgetUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EUHB9Q5A45;
