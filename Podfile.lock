@@ -1,16 +1,26 @@
 PODS:
   - Plaid (4.3.0)
+  - Realm (10.39.1):
+    - Realm/Headers (= 10.39.1)
+  - Realm/Headers (10.39.1)
+  - RealmSwift (10.39.1):
+    - Realm (= 10.39.1)
 
 DEPENDENCIES:
   - Plaid
+  - RealmSwift (~> 10)
 
 SPEC REPOS:
   trunk:
     - Plaid
+    - Realm
+    - RealmSwift
 
 SPEC CHECKSUMS:
   Plaid: 1a2e87be59888655d2cebcd5d864b3d9d4662b63
+  Realm: 1f3157edf145f4d9036765ab550c8cb18f62b700
+  RealmSwift: 8a69a1cb788cd5865966f49667b130567e07bceb
 
-PODFILE CHECKSUM: c81d8b36ea939ffed368992c61d21d0f9b8ddb52
+PODFILE CHECKSUM: 4bbb5626d8b549183280aecd6b80dc24f1f3899f
 
 COCOAPODS: 1.12.1
