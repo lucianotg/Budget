@@ -38,19 +38,19 @@ class PlaidAccount: Object {
     //Prevent creation of Account if it already exists.
     
     guard let name = array["name"] as? String else {
-      throw SerializationError.missing("ID is missing.")
+      throw SerializationError.missing("Name is missing.")
     }
     
     guard let mask = array["mask"] as? String else {
-      throw SerializationError.missing("ID is missing.")
+      throw SerializationError.missing("Mask is missing.")
     }
     
     guard let type = array["type"] as? String else {
-      throw SerializationError.missing("ID is missing.")
+      throw SerializationError.missing("Type is missing.")
     }
     
     guard let subtype = array["subtype"] as? String else {
-      throw SerializationError.missing("ID is missing.")
+      throw SerializationError.missing("Subtype is missing.")
     }
     
     self.id = id

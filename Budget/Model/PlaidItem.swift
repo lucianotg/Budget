@@ -47,7 +47,7 @@ class PlaidItem: Object {
     }
     
     guard let name = institution["name"] as? String else {
-      throw SerializationError.missing("Error saving Institution ID.")
+      throw SerializationError.missing("Error saving Institution name.")
     }
     
     self.publicToken = publicToken
