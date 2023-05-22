@@ -25,6 +25,10 @@ print(urls[urls.count-1] as URL)
 //            dog.name = "Wolfie"
 //            print("name of dog: \(dog.name)")
 //        }
+//
+//        if let name = dogs.first?.name {
+//            print(name)
+//        }
 
 
 //MARK: Plaid Example Code
